@@ -109,7 +109,7 @@ class CatalogPageExtension extends DataExtension
     public function getCatalogParents()
     {
         $parentClass = $this->getParentClasses();
-        if (count($parentClass)) {
+        if ($parentClass && count($parentClass)) {
             $pages = SiteTree::get()->filter(array('ClassName' => array_values($parentClass)));
             return $pages;
         }
