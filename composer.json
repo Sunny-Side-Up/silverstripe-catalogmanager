@@ -1,6 +1,6 @@
 {
     "name": "Sunny-Side-Up/silverstripe-catalogmanager",
-    "type": "silverstripe-vendormodule",
+    "type": "silverstripe-module",
     "description": "Catalog Manager provides extension for ModelAdmin editing of SiteTree instances",
     "license": "MIT",
     "authors": [
